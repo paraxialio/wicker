@@ -1,8 +1,13 @@
 import Config
 
+# config :paraxial,
+#   paraxial_api_key: System.get_env("PARAXIAL_API_KEY"),  # Required
+#   paraxial_url: "https://app.paraxial.io"               # Required
+
 config :paraxial,
   paraxial_api_key: System.get_env("PARAXIAL_API_KEY"),  # Required
-  paraxial_url: "https://app.paraxial.io"               # Required
+  paraxial_url: "http://localhost:4000/"               # Required
+
 
 # Configure your database
 config :basket, Basket.Repo,

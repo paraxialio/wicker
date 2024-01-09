@@ -49,7 +49,8 @@ defmodule Basket.MixProject do
       {:gettext, "~> 0.18"},
       {:jason, "~> 1.2"},
       {:plug_cowboy, "~> 2.5"},
-      {:paraxial, "~> 2.6.0"}
+      {:paraxial, path: "/Users/dt/paraxial_repos/paraxial"}
+      #{:paraxial, "~> 2.6.0"}
     ]
   end
 
