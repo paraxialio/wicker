@@ -8,7 +8,7 @@
   </tr>
   <%= for fruit <- @fruits do %>
   <tr>
-    <td><%= fruit.name %></td>
+    <td><%= raw fruit.name %></td>
     <td><%= fruit.quantity %></td>
     <td><%= fruit.secret %> </td>
   </tr>
